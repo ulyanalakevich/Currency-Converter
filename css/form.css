@@ -1,25 +1,31 @@
 .form__legend {
-    border: 2px solid teal;
+    border: 2px solid rgb(1, 101, 81);
     padding-inline: 20px;
+    background-color: rgba(255, 255, 255, 0.671);
 
 }
 
 .form__field {
     width: 100px;
-    border: 2px solid hsl(180, 100%, 25%);
+    border: 2px solid rgb(1, 101, 81);
+    background-color: rgba(255, 255, 255, 0.671);
 }
 
 .form__button {
-    color: white;
-    background-color: teal;
+    color: rgb(255, 255, 255);
+    background-color: rgb(1, 101, 81);
     border-color: white;
     box-shadow: 2px 2px 8px #ccc;
 }
 
 .form__result {
-    color: teal;
+    color: rgb(1, 101, 81);
 }
 
 .form__paragraph {
     text-align: center;
+}
+
+.form__fieldset {
+background-color: rgba(255, 255, 255, 0.541)
 }
